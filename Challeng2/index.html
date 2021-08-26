@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: #0a0c1b;;
+		text-align: left;
+    }
+
+.main {
+    width: 1100px;
+    height: 420px;
+    background-color: #1c1938;
+    margin: 15% auto;
+    border-radius: 10px;
+}
+.rightside{
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-image: url("images/image-header-desktop.jpg");
+	    border-radius: 0px 10px 10px 0px;
+
+	  }
+	  .rightside #opacity{
+    background-color: #44006be3;
+    opacity: 75%;
+    width: 100;
+    height: 100%;
+	    border-radius: 0px 10px 10px 0px;
+
+	  }
+	  .leftside{
+		       float: left;
+     width: 50%;
+     height: 100%;;
+
+	  }
+	  .leftside h1{
+		  color: white;  
+    padding: 8% 0px 10px 70px;
+		      font-size: 2.2em;
+		  letter-spacing: 2px;
+	  }
+	  	  .leftside mark{
+			  background-color: #1c1938 !important;
+			  color: #9a5bc3;
+	  }
+	  .leftside .discription{
+		      color: #b0aec3;
+    line-height: 23px;
+		  padding-left: 70px;
+	  }
+	  .counters{
+width: 100%;
+    height: 82px;
+    margin-top: 12%;
+    padding-left: 70px;
+	  }
+	  .counters .leftcounter{
+		  width: 23%;
+		  float: left;
+	  }
+	  	  .counters .centercounter{
+		  width: 23%;
+			  		  float: left;
+
+	  }
+	  	  .counters .rightcounter{
+		  width: 23%;
+			  		  float: left;
+
+	  }
+	  .counters b{
+		  color: white;
+		  font-size: 21px;
+	  }
+	  .counters p{
+		 color: #b0aec3;
+		  font-size: 15px;
+		  
+	  }
+    .attribution { font-size: 11px; text-align: center;color: white; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="main">
+<div class="leftside">
+	<h1>Get <mark>insights</mark> that help <br> your businss grow.</h1>
+	<p class="discription">Discover the benefits of data analitics and make<br>
+better decisions regarding revenue , customer<br>
+experience, and overall efficiency.</p>
+	<section class="counters">
+	<div class="leftcounter">
+		<b>10K+</b><br>
+		<p>COMPANIES</p>
+		</div>
+	<div class="centercounter">
+		<b>314</b>
+				<p>TEMPLATES</p>
+		</div>
+	<div class="rightcounter">
+		<b>12M+</b>
+				<p>QUERIES</p>
+		</div>
+	</section>
+	</div>
+<div class="rightside"><div id="opacity"></div></div>
+
+</div>
+
+
+  <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/aliakbarhy" target="_blank">Aliakbar</a>. </div>
+</body>
+</html>
